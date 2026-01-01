@@ -1,0 +1,23 @@
+{
+  "branches": [
+    {
+      "id": "cse",
+      "name": "Computer Science and Engineering",
+      "semesters": [
+        {
+          "id": "sem3",
+          "name": "3rd Semester",
+          "subjects": [
+            { "id": "dbms", "name": "Database Management Systems" },
+            { "id": "ds", "name": "Data Structures" },
+            { "id": "os", "name": "Operating Systems" }
+          ]
+        }
+      ]
+    },
+    { "id": "ece", "name": "Electronics and Communication Engineering", "semesters": [] },
+    { "id": "eee", "name": "Electrical and Electronics Engineering", "semesters": [] },
+    { "id": "mech", "name": "Mechanical Engineering", "semesters": [] }
+  ],
+  "version": 1
+}
