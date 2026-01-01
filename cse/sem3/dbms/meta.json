@@ -1,15 +1,136 @@
 {
-  "branch": "cse",
+  "subject": "Database Management Systems",
+  "code": "CS302",
   "semester": 3,
-  "subjectId": "dbms",
-  "subjectName": "Database Management Systems",
-  "totalUnits": 5,
+  "credits": 4,
+  "total_units": 5,
   "units": [
-    { "id": "unit1", "title": "Database System Applications" },
-    { "id": "unit2", "title": "Introduction to the Relational Model" },
-    { "id": "unit3", "title": "SQL Fundamentals" },
-    { "id": "unit4", "title": "Transaction Management" },
-    { "id": "unit5", "title": "Data on External Storage and File Organization" }
+    {
+      "unit_number": 1,
+      "title": "Introduction to Database Systems and Fundamentals",
+      "topics": [
+        "Database concepts and DBMS overview",
+        "File systems vs database systems",
+        "Advantages of DBMS",
+        "ANSI/SPARC architecture",
+        "Data abstraction and data independence"
+      ],
+      "learning_outcomes": [
+        "Understand basic database concepts and terminology",
+        "Distinguish between file systems and databases",
+        "Explain DBMS architecture and components",
+        "Understand data abstraction principles"
+      ],
+      "exam_weightage": "20%"
+    },
+    {
+      "unit_number": 2,
+      "title": "Database Design and Entity-Relationship Model",
+      "topics": [
+        "Entity-Relationship (ER) model",
+        "ER diagram notation and design",
+        "Relational model and tables",
+        "Keys and constraints",
+        "Normalization basics (1NF, 2NF, 3NF)"
+      ],
+      "learning_outcomes": [
+        "Design ER diagrams for real-world scenarios",
+        "Convert ER diagrams to relational schemas",
+        "Understand and apply normalization",
+        "Identify and apply database constraints"
+      ],
+      "exam_weightage": "20%"
+    },
+    {
+      "unit_number": 3,
+      "title": "SQL and Relational Algebra",
+      "topics": [
+        "SQL data definition language (DDL)",
+        "SQL data manipulation language (DML)",
+        "Complex queries and joins",
+        "Aggregate functions and grouping",
+        "Subqueries and set operations"
+      ],
+      "learning_outcomes": [
+        "Write and optimize SQL queries",
+        "Perform complex data retrieval operations",
+        "Use aggregate functions and joins effectively",
+        "Understand query execution and optimization basics"
+      ],
+      "exam_weightage": "20%"
+    },
+    {
+      "unit_number": 4,
+      "title": "Transaction Management and Concurrency Control",
+      "topics": [
+        "Transaction concept and ACID properties",
+        "Transaction control statements",
+        "Concurrency control mechanisms",
+        "Locking protocols and deadlocks",
+        "Recovery and reliability"
+      ],
+      "learning_outcomes": [
+        "Understand ACID properties and their importance",
+        "Manage transactions effectively",
+        "Solve concurrency control problems",
+        "Understand recovery mechanisms"
+      ],
+      "exam_weightage": "20%"
+    },
+    {
+      "unit_number": 5,
+      "title": "Database Security, Indexing and Optimization",
+      "topics": [
+        "Database security and authorization",
+        "User authentication and access control",
+        "Indexing strategies and B-tree structures",
+        "Query optimization techniques",
+        "Performance tuning and monitoring"
+      ],
+      "learning_outcomes": [
+        "Implement database security measures",
+        "Understand and apply indexing strategies",
+        "Optimize database performance",
+        "Monitor and tune database systems"
+      ],
+      "exam_weightage": "20%"
+    }
   ],
-  "version": 1
+  "important_topics": [
+    "ER model and normalization",
+    "SQL queries and joins",
+    "Transaction management and concurrency",
+    "Indexing and query optimization",
+    "Database security and constraints"
+  ],
+  "recommended_books": [
+    {
+      "title": "Database System Concepts",
+      "author": "Silberschatz, Korth, Sudarshan"
+    },
+    {
+      "title": "Database Management Systems",
+      "author": "Raghu Ramakrishnan, Johannes Gehrke"
+    },
+    {
+      "title": "Fundamentals of Database Systems",
+      "author": "Elmasri, Navathe"
+    },
+    {
+      "title": "SQL Performance Explained",
+      "author": "Markus Winand"
+    }
+  ],
+  "prerequisites": [
+    "Basic programming knowledge",
+    "Understanding of data structures",
+    "Mathematical foundations (sets, relations)"
+  ],
+  "assessment_methods": [
+    "Mid-term exam (30%)",
+    "Assignments and quizzes (20%)",
+    "Final exam (50%)"
+  ],
+  "version": 1,
+  "last_updated": "2026-01-01"
 }
