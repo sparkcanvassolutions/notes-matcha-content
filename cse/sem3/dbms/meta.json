@@ -1,0 +1,15 @@
+{
+  "branch": "cse",
+  "semester": 3,
+  "subjectId": "dbms",
+  "subjectName": "Database Management Systems",
+  "totalUnits": 5,
+  "units": [
+    { "id": "unit1", "title": "Database System Applications" },
+    { "id": "unit2", "title": "Introduction to the Relational Model" },
+    { "id": "unit3", "title": "SQL Fundamentals" },
+    { "id": "unit4", "title": "Transaction Management" },
+    { "id": "unit5", "title": "Data on External Storage and File Organization" }
+  ],
+  "version": 1
+}
